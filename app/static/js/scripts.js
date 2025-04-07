@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     document.getElementById('response').textContent = data;
                 })
                 .catch(err => {
-                    document.getElementById('response').textContent = 'خطا در ارسال درخواست';
+                    //test
                 });
         });
     }
